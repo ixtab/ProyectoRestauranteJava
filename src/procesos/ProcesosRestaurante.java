@@ -24,7 +24,7 @@ public class ProcesosRestaurante {
 		System.out.println("Zona: ");
 		dir.setZona(scn.nextLine());
 		
-		System.out.println("CÃ³digo postal: ");
+		System.out.println("Código postal: ");
 		dir.setCp(scn.nextLine());
 		
 		System.out.println("Ciudad: ");
@@ -37,7 +37,7 @@ public class ProcesosRestaurante {
 		return "Restaurante creado";
 	}
 	
-	public static void ListadoRestaurantes() {
+	public static void listadoRestaurantes() {
 		System.out.println("------------------\nListado de Restaurantes:");
 		for (Restaurante res : lista) {
 			System.out.println(res.getIdRestaurante() + ": " + res.getNombre());

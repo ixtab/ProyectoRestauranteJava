@@ -10,7 +10,7 @@ public class Principal {
 		
 		Scanner scn = new Scanner(System.in);
 		do {
-			System.out.println("1. AÃ±adir Restaurante");
+			System.out.println("1. Añadir Restaurante");
 			System.out.println("2. Listado de restaurantes");
 			System.out.println("5. Salir");
 			System.out.println("----------");
@@ -23,13 +23,13 @@ public class Principal {
 				System.out.println(ProcesosRestaurante.AddRestaurante());
 				break;
 			case "2":
-				ProcesosRestaurante.ListadoRestaurantes();
+				ProcesosRestaurante.listadoRestaurantes();
 				break;
 			case "5":
 				System.out.println("Programa finalizado");
 				break;
 			default:
-				System.out.println("OpciÃ³n no valida");
+				System.out.println("Opción no valida");
 				break;
 			}
 			
